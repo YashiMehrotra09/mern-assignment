@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register - Page </title>
 </head>
+
 <body>
     <h1>Tech Club Membership Form</h1>
     <form action="#" method="post">
@@ -38,12 +40,28 @@
         <br>
 
         <div>
-            <labe>year of study</labe>
-            <
+            <label>Year Level:</label>
+            <input type="radio" id="freshman" name="year" value="freshman">
+            <label for="freshman">Freshman</label>
+
+            <input type="radio" id="sophomore" name="year" value="sophomore">
+            <label for="sophomore">Sophomore</label>
+
+            <input type="radio" id="junior" name="year" value="junior">
+            <label for="junior">Junior</label>
         </div>
-        
+        <br>
+        <div>
+            <label for="bio">Why do you want to join?</label><br>
+            <textarea id="bio" name="bio" rows="4" cols="30"
+                placeholder="Tell us a little about yourself..."></textarea>
+        </div>
+
+
     </form>
 
 
+
 </body>
+
 </html>
