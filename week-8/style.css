@@ -1,0 +1,48 @@
+/* 8.1 grid */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5f7;
+    color: #5b2a4e;
+}
+
+.main {
+    padding: 20px;
+}
+
+.main h2 {
+    margin-bottom: 15px;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.box {
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 18px;
+}
+
+.pink-box {
+    background-color: #ffd1e0;
+}
+
+.blue-box {
+    background-color: #cfe8ff;
+}
+
+.sand-box {
+    background-color: #fff0b8;
+}
+
+.steel-box {
+    background-color: #d9ccff;
+}
