@@ -118,3 +118,33 @@ body {
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
 }
+/* 9.3 flexbox navbar */
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+    margin-top: 0;
+}
+
+.links li {
+    padding: 0;
+}
+
+/* 9.3 grid for the cards */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.card {
+    margin-bottom: 0;
+}
