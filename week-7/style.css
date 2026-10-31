@@ -108,3 +108,32 @@ body {
     background-color: #5581b1;
     color: white;
 }
+/* 7.4 landing page look */
+.navbar {
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section-title {
+    width: fit-content;
+    margin: 30px auto 0 auto;
+    padding-bottom: 6px;
+    border-bottom: 4px solid #df5198;
+    font-size: 28px;
+    color: #5581b1;
+}
+
+.cards {
+    padding-top: 25px;
+}
+
+.card {
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn:hover {
+    background-color: #5581b1;
+}
+
+.banner .btn:hover {
+    background-color: #2f4a66;
+}
