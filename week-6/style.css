@@ -1,0 +1,24 @@
+/* 6.1 box model */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3eefc;
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    width: 320px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 3px solid #999;
+    background-color: white;
+    text-align: center;
+}
