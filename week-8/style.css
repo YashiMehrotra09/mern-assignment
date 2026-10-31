@@ -19,6 +19,7 @@ body {
     margin-bottom: 15px;
 }
 
+
 .boxes {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -45,4 +46,10 @@ body {
 
 .steel-box {
     background-color: #d9ccff;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
 }
