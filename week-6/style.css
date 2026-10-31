@@ -7,7 +7,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f3eefc;
+    background-color: #fdf6f9;
+    color: #3a3a4a;
 }
 
 .container {
@@ -18,7 +19,7 @@ body {
     width: 320px;
     padding: 20px;
     margin: 20px auto;
-    border: 3px solid #999;
+    border: 3px solid #df5198;
     background-color: white;
     text-align: center;
 }
