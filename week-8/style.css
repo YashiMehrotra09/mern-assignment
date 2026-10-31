@@ -99,3 +99,22 @@ body {
     padding: 10px 0;
     font-weight: bold;
 }
+/* 8.4 flex inside the box */
+.box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon {
+    font-size: 36px;
+}
+
+.text h3 {
+    margin-bottom: 4px;
+}
+
+.text p {
+    font-size: 22px;
+    font-weight: bold;
+}
