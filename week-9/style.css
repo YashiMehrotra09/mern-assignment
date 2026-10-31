@@ -148,3 +148,49 @@ body {
 .card {
     margin-bottom: 0;
 }
+/* 9.4 tablet: 768px and up */
+@media (min-width: 768px) {
+    .hero {
+        padding: 50px 30px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* 9.4 desktop: 1024px and up */
+@media (min-width: 1024px) {
+    .navbar {
+        padding: 15px 80px;
+    }
+
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 30px;
+        padding: 60px 80px;
+        text-align: left;
+    }
+
+    .hero-text {
+        margin-bottom: 0;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .features {
+        padding: 50px 80px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
