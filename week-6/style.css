@@ -23,3 +23,38 @@ body {
     background-color: white;
     text-align: center;
 }
+/* 6.2 round card, circle photo, colours */
+.card {
+    border-radius: 15px;
+}
+
+.photo {
+    display: block;
+    width: 110px;
+    height: 110px;
+    margin: 0 auto 12px auto;
+    border-radius: 50%;
+    border: 4px solid #e3cd94;
+    object-fit: cover;
+}
+
+.card h2 {
+    margin-bottom: 4px;
+}
+
+.role {
+    margin-bottom: 15px;
+    color: #5b5b6b;
+}
+
+/* first card: pink */
+.pink {
+    background-color: #edcadb;
+    border-color: #df5198;
+}
+
+/* second card: blue */
+.blue {
+    background-color: #97bbe9;
+    border-color: #5581b1;
+}
