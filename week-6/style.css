@@ -58,3 +58,19 @@ body {
     background-color: #97bbe9;
     border-color: #5581b1;
 }
+/* 6.3 bio box */
+.bio {
+    height: 120px;
+    overflow: auto;
+    padding: 10px;
+    border: 2px solid #e3cd94;
+    border-radius: 8px;
+    background-color: white;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.bio p {
+    margin-bottom: 8px;
+}
