@@ -53,3 +53,49 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 15px;
 }
+/* 8.3 page layout with named areas */
+.layout {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "head head"
+        "side main"
+        "foot foot";
+    gap: 10px;
+    min-height: 100vh;
+}
+
+.head {
+    grid-area: head;
+    padding: 15px 25px;
+    background-color: #f4a6c0;
+    color: #5b2a4e;
+}
+
+.side {
+    grid-area: side;
+    padding: 20px;
+    background-color: #e6dcff;
+}
+
+.main {
+    grid-area: main;
+}
+
+.foot {
+    grid-area: foot;
+    padding: 15px;
+    background-color: #c9b6f2;
+    color: #5b2a4e;
+    text-align: center;
+}
+
+.side ul {
+    list-style: none;
+}
+
+.side li {
+    padding: 10px 0;
+    font-weight: bold;
+}
