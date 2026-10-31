@@ -118,3 +118,24 @@ body {
     font-size: 22px;
     font-weight: bold;
 }
+/* 8.5 final touches */
+.box {
+    box-shadow: 0 4px 10px rgba(91, 42, 78, 0.15);
+}
+
+.side li:hover {
+    color: #ff7eb3;
+    cursor: pointer;
+}
+
+/* phone screens: stack everything in one column */
+@media (max-width: 600px) {
+    .layout {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "head"
+            "side"
+            "main"
+            "foot";
+    }
+}
